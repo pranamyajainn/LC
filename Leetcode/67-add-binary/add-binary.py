@@ -1,7 +1,7 @@
 class Solution:
     #step1 removing all the leading zeros         
     def trimLeadingZeroes(self,s):
-        #LET'S find position of first '1'
+        #LETx'S find position of first '1'
         firstOne=s.find('1')
         if firstOne != -1:
             return s[firstOne:] 
